@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>pl.coderslab</groupId>
   <artifactId>TaskManager</artifactId>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>TaskManager Maven Webapp</name>
   <url>http://maven.apache.org</url>
@@ -14,7 +14,12 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-  </dependencies>
+    <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.9</version>
+        </dependency>
+    </dependencies>
   <build>
     <finalName>TaskManager</finalName>
   </build>
